@@ -33,5 +33,15 @@ class MainActivity : AppCompatActivity() {
             number -=1
             textView.text=number.toString()
         }
+        reset.setOnClickListener()
+        {
+            if (number==0)
+            {
+                textView.text = "0"
+            }
+            else
+                number = 0
+            textView.text=number.toString()
+        }
     }
 }
